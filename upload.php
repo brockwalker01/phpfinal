@@ -35,3 +35,8 @@ if (isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
 // Display status message
 echo $statusMsg;
 ?>
+
+<body>
+  <div class="return"><a href="./index.php">Return to Gallery</a></div>
+  </div>
+</body>
