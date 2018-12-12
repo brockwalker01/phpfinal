@@ -7,12 +7,16 @@
     <title>Testing</title>
   </head>
   <body>
+  <div class="container">
+  <div class="upfrm">
     <form action="upload.php" method="post" enctype="multipart/form-data">
       Select Image File to Upload: <input type="file" name="file" />
       <input type="submit" name="submit" value="Upload" />
     </form>
-    <?php
-// Include the database configuration file
+    </div>
+    <div class="gallery">
+    <h2>Uploaded Images</h2>
+    // Include the database configuration file
     include 'dbConfig.php';
 
 // Get images from the database
@@ -29,5 +33,9 @@
     <p>No image(s) found...</p>
 <?php 
 } ?>
+    </div>
+    </div>
+    <?php
+
   </body>
 </html>
