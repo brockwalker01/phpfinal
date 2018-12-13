@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Testing</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Photography Gallery</title>
   </head>
   <body>
   <div class="container">
@@ -15,10 +16,17 @@
     </form>
     </div>
     <div class="gallery">
-    <h2>Uploaded Images</h2>
- 
+    <h2>------ PHOTO GALLERY ------</h2>
     </div>
     </div>
+    <div class="instructions">
+    <p>INSTURCTIONS:</p>
+    <ol>
+  <li>Click on 'Choose File' to upload a photo.</li>
+  <li>Search on your computer for any photo you want. NOTE: Only accepts JPG, JPEG, PNG, GIF, & PDF files.</li>
+  <li>Once you have chosen your photo, click upload.</li>
+</ol>
+</div>
     <?php
    // Include the database configuration file
     include 'dbConfig.php';
